@@ -28,8 +28,9 @@ rc test_ut --package Combination
 
 ###########################
 echo "Doing the actual fitting now"
-cd ../../CalibrationResults
+cd CalibrationResults
 rm -rf *.html
 rm -rf *.tar.gz
 
+# Always run from the CalibrationResults directory!!
 source scripts/runall.sh
