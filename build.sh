@@ -6,7 +6,8 @@ echo "directory layout:"
 ls
 
 echo "Setting up atlas"
-setupATLAS
+source $ATLAS_LOCAL_ROOT_BASE/user/atlasLocalSetup.sh
+
 
 rcSetup Base,$RELEASE
 
