@@ -5,6 +5,7 @@
 echo "Setting up atlas"
 source $ATLAS_LOCAL_ROOT_BASE/user/atlasLocalSetup.sh
 
+echo "Setting up the Base release"
 rcSetup Base,$RELEASE
 
 # Everything is checked out in the following locations by
